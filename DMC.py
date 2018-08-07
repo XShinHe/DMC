@@ -27,7 +27,7 @@ from numba import jit, jitclass
 #       > numba provides acceleration <refering https://numba.pydata.org>
 #       > @jit : add before the self-defined function (not the class function)
 #       > @jitclass : add before the class, careful with datatype
-#       > to install : `sudo pip3 install pandas`
+#       > to install : `sudo pip3 install numba`
 
 # Summary of performance
 #       > about 9s CPU time for 5000 walkers calculate 5000 times, 
