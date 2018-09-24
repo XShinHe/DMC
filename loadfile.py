@@ -34,7 +34,7 @@ class Load:
         for two in a.values:
             if(is_number(two[1])):
                 if( float(two[1])%1==0.0 and not is_integer(two[1])):
-                    self.args[two[0]] = int(two[1].strip())
+                    self.args[two[0]] = int(two[1])
                 else:
                     self.args[two[0]] = float(two[1])
             else:
